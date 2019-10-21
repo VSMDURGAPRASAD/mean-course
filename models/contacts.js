@@ -1,5 +1,5 @@
 const mongoose= require('mongoose');
- const  ContactSchema= mangoose.Schema({
+ const  ContactSchema= mongoose.Schema({
      first_name:{
          type:String,
          required:true
